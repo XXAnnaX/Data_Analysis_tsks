@@ -1,6 +1,7 @@
 import pandas as pd
 
-def calculate_demographic_data(print_data=True):
+def calculate_demographic_data(print_data=True):git remote -v
+
     # Read data from file
     # df = None
     df = pd.read_csv("adult.data.csv", header=None, names=[
